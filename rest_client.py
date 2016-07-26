@@ -1,3 +1,7 @@
+#This is the client side code.
+#The client here uses the RESTful APIs that are implemented in app3.py
+
+
 import requests, json
 from subprocess import call
 import io
