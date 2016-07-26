@@ -1,0 +1,15 @@
+<html>
+<head>
+<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-store, no-cache, must-revalidate, max-age=0"> 
+<META HTTP-EQUIV="expires" CONTENT='0'>
+<title>REDIR</title>
+</head>
+<body onLoad='redirTimer()'>Please wait...<SCRIPT LANGUAGE='JavaScript'>
+redirTime = '500';
+redirURL = 'http://1.1.1.1:80/reg.php?ah_goal=eula.html&ah_login=true&url=E2B8F3578D88E9A53591BB4480990F9BCD2650';
+function redirTimer() { 
+       self.setTimeout('self.location.href = redirURL;',redirTime); 
+}
+</script> 
+<br>If you cannot see the login page, close and then reopen your browser and try again.</font></div></body></html>
