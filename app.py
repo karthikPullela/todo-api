@@ -1,4 +1,5 @@
 #!flask/bin/python
+#The above code is the file path to the executable
 from flask import Flask, jsonify, abort, make_response, request
 #import RPi.GPIO as GPIO
 
@@ -95,38 +96,3 @@ def not_found(error):
 
 if __name__ == "__main__":
 	app.run(debug = True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
